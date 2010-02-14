@@ -5,3 +5,5 @@ make
 #make clean
 
 cd ..
+
+sudo cp -vr src/MacVim/build/Release/MacVim.app /Applications/
