@@ -1,6 +1,9 @@
+alias assh="autossh -M 0"
 alias ls="ls -G"
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
+export PATH=$PATH:~/dev/android-sdk-mac_86/tools
 
 #export MANPATH=/usr/local/share/man:$MANPATH
 
