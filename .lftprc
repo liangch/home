@@ -1,0 +1,10 @@
+debug 3
+alias mirror mirror --ignore-time
+alias get get -c
+alias mget mget -c
+set ftp:charset GBK 
+set net:timeout 15
+set ssl:verify-certificate false
+set ftp:port-range 2010-2020
+set ftp:fix-pasv-address yes
+
